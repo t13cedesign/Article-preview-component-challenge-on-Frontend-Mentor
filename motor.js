@@ -9,9 +9,5 @@ function showShareContainer() {
     shareIcon.classList.toggle('share-img--active')
 }
 
-// function showShareContainer() {
-//     shareContainer.style.display = "flex";
-// }
-
 shareButton.addEventListener('click', showShareContainer);
 shareButtonShareC.addEventListener('click', showShareContainer);
